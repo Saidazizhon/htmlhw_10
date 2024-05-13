@@ -1,0 +1,397 @@
+@font-face {
+    font-family: Philosopher-Bold;
+    src: url("../fonts/Philosopher-Bold.woff");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+a{
+    color: inherit;
+}
+body{
+    height: 500vh;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.navbar__logo{
+    width: 44px;
+    height: 43px;
+}
+.navbar__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 35px;
+}
+.navbar__wrapper ul{
+    display: flex;
+    align-items: center;
+    gap: 41px
+}
+.navbar__text{
+    width: 77px;
+    height: 19px;
+    display: flex;
+}
+.navbar__btn{
+    width: 145px;
+    height: 46px;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    background: #DC780B;
+    color: #fff;
+    border: none;
+}
+.main__wrapper{
+    width: 100%;
+    height: 608px;
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+.main__box{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.main__box b{
+    font-size: 48px;
+    font-weight: 600;
+}
+.main__btn{
+    width: 156px;
+    height: 60px;
+    background: #ce9558;
+    color: #fff;
+    border: none;
+    margin-right: 30px;
+}
+.main__btns{
+    width: 156px;
+    height: 60px;
+    background: #fff;
+    color: #DC780B;
+    border: 1px solid #DC780B;
+}
+.main__img{
+    width: 50%;
+}
+.feactures{
+    width: 100%;
+    height: 333px;
+    display: flex;
+}
+.feactures__nav{
+    width: 100%;
+}
+.nav__feactures{
+    text-align: center;
+    color: #DC780B;
+    font-size: 20px;
+}
+.feactures__food{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.boxs{
+    display: flex;
+    align-items:center;
+    gap: 90px;
+}
+.feactures__box{
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    gap: 90px;
+}
+.feactures__img-{
+    width: 88px;
+    height: 75px;    
+}
+.feactures__img--{
+    width: 88px;
+    height: 88px;
+}
+.feactures__img---{
+    width: 88px;
+    height: 85px;
+}
+.about{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.about__img{
+    width: 50%;
+    height: 500px;
+    border-radius: 30px;
+}
+.about__box{
+    width: 50%;
+}
+.about__box b{
+    font-family: Philosopher-Bold;
+    font-size: 28px;
+    font-weight: 600;
+}
+.about__box button{
+    background: #DC780B;
+    color: #fff;
+    width: 142px;
+    height: 42px;
+    border: none;
+}
+.menu__nav{
+    width: 100%;
+}
+.menu__box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1000px;
+    gap: 51px;
+}
+.menu__p-{
+    text-align: center;
+    color: #DC780B;
+}
+.menu__p--{
+    text-align: center;
+    font-family: Philosopher-Bold;
+    font-weight: 700;
+    font-size: 24px;
+}
+.menu__p---{
+    text-align: center;
+}
+.menu__card{
+    width: 360px;
+    height: 446px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card__eat{
+    width: 100%;
+    height: 300px;
+    border-radius: 50px 10px;
+}
+.card__span{
+    font-family: Philosopher-Bold;
+    margin-right: 140px;
+    margin-left: 20px;
+}
+.card__s{
+    font-family: Philosopher-Bold;
+    margin-right: 210px;
+    margin-left: 20px;
+}
+.card__s--{
+    font-family: Philosopher-Bold;
+}
+.card__p{
+    margin-left: 20px;
+}
+.card__btn{
+    margin-left: 20px;
+    color: #fff;
+    background: #DC780B;
+    width: 36px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 190px;
+}
+.card__icon{
+    width: 16px;
+}
+.card__ikon{
+    width: 16px;
+}
+.btn{
+    margin: auto;
+}
+.ccard__btn{
+    width: 142px;
+    height: 42px;
+    background: #fff;
+    color: #DC780B;
+    border: #DC780B;
+}
+.takeaway{
+    width: 100%;
+    background: #FBF1E7;
+    display: flex;
+    align-items: center;
+}
+.takeaway__main{
+    width: 100%;
+    display: flex;
+}
+.takeaway__box{
+    width: 50%;
+    padding: 100px 0;
+}
+.takeaway__p-{
+    color: #DC780B;
+}
+.takeaway__p--{
+    font-family: Philosopher-Bold;
+    font-weight: 700;
+    font-size: 31px;
+}
+.takeaway__btn{
+    width: 163px;
+    height: 48px;
+    background: #150C01;
+    color: #fff;
+    list-style: none;
+    border-radius: 5px;
+}
+.takeaway__btnn{
+    width: 163px;
+    height: 48px;
+    background: #fff;
+    color: #150C01;
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.takeaway__img{
+    width: 50%;
+    margin-left: 200px;
+    padding: 20px 0;
+}
+.testimonial__box{
+    width: 750px;
+    height: 476px;
+    text-align: center;
+    margin: auto;
+}
+.testimonial__p-{
+    color: #DC780B;
+}
+.testimonial__p--{
+    font-family: Philosopher-Bold;
+    font-weight: 700;
+    font-size: 31px;
+}
+.testimonial__img{
+    margin: 80px 0 42px 0;
+}
+.testimonial__p-----{
+    font-size: 10px;
+}
+.contact{
+    width: 100%;
+    height: 445px;
+    background: #fcf2e7;    
+    display: flex;
+    align-items: center;
+}
+.contact__box{
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+.contact__p-{
+    color:#DC780B;
+}
+.contact__p--{
+    font-family: Philosopher-Bold;
+    font-weight: 700;
+    font-size: 31px;
+}
+.contact__input{
+    width: 600px;
+    height: 70px;
+    color: #fff;
+    display: flex;
+    margin: auto;
+}
+.contact__btn{
+    width: 156px;
+    height: 70px;
+    background: #DC780B;
+    color: #fff;
+}
+.footer{
+    background: #252525;
+    width: 100%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__main{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.footer__box-{
+    height: 430px;
+    width: 25%;
+}
+.footer__box- img{
+    margin-top: 137px;
+    width: 61px;
+    height: 60px;
+}
+.footer__box--{
+    height: 430px;
+    width: 25%;
+    margin-top: 140px;
+}
+.footer__box- p{
+    color: #fff;
+}
+.footer__box-- b{
+    color:#fff;
+}
+.footer__box-- p{
+    color: #fff;
+}
+.footer__box---{
+    height: 430px;
+    width: 25%;
+    margin-top: 140px;
+}
+.footer__box--- p{
+    color: #fff;
+}
+.footer__box--- b{
+    color: #fff;
+}
+.footer__box----{
+    height: 430px;
+    width: 25%;
+    margin-top: 140px;
+}
+.footer__box---- p{
+    color: #fff;
+}
+.footer__box---- b{
+    color: #fff;
+}
+.footer__imgages{
+    display: flex;
+    gap: 5px;
+}
